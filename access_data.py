@@ -58,7 +58,7 @@ async def fetch(url, session):
             return link
 
     except Exception as e:
-        print(f"Error fetching {url} at {link}: {e}")
+        pprint(f"Error fetching {url} at {link}: {e}")
         failed_downloads.append({'url_public_html': url, 'reason': str(e), 'link': link})
         return ''
 
