@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "huncrc-figshare"
+version = "0.1.0"
+description = ""
+authors = ["Olar Alex <olaralex666@gmail.com>"]
+readme = "README.md"
+packages = [{include = "huncrc_figshare"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.5"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+aiofiles = "^23.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
