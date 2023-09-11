@@ -25,7 +25,7 @@ pip install aiohttp aiofiles beautifulsoup4 lxml
 
 ## How to Use
 
-1. Ensure the `figshare_data_paths.json` file is placed in the `./code/` directory. This file contains a list of Figshare URL details under the key `url_public_html`.
+1. Ensure the `figshare_data_paths.json` file is placed in the `./code/` directory. This file contains a list of Figshare URL details under the key `url_public_html`. Acquired this file from the [Figshare API](https://docs.figshare.com/#collections_list)
 
 2. Navigate outside the `code` directory and run the script:
 
